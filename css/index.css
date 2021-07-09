@@ -411,7 +411,11 @@ a {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "abt_header img_1" "abt_txt img_1" "cont_header cont_txt" "img_2 icons" "img_2 .";
+        grid-template-areas: "abt_header img_1"
+ "abt_txt img_1"
+ "cont_header cont_txt"
+ "img_2 icons"
+ "img_2 .";
     grid-column-gap: 8%;
     grid-row-gap: 1em;
   }
